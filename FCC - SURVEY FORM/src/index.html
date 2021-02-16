@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap" rel="stylesheet"> 
+<link href="style.css" type="text/css" rel="stylesheet">
+<title>Crystal Survey Form</title>
+
+<div id="form-box">
+
+<h1 id="title">Crystal Subscription</h1>
+
+<p id="description">Sign up today to have shiny pretty rocks delivered to your home.</p>
+
+<form id="survey-form">
+  <label for="name" id="name-label">Name:</label>
+  <br>
+  <input type="text" id="name" name="name" placeholder="ex: Paul" required>  
+  <br>  
+  <br>
+  
+  <label for="email" id="email-label">Email:</label> 
+  <br>
+  <input type="email" id="email" name="email" placeholder="ex: Zelda@link.com" required>
+  <br>
+  <br>
+  
+  <label for="number" id="number-label">Number:</label>
+  <br>
+  <input type="number" id="number" name="number" min="1" max="10" placeholder="0" required>  
+ <br>
+  <br>
+  
+ <label for="crystals">Choose a crystal:</label>
+  <br>
+<select id="dropdown" name="crystals">
+  <option value="amethyst">Amethyst</option>
+  <option value="rose-quartz">Rose Quartz</option>
+  <option value="flourite">Flourite</option>
+  <option value="citrine">Citrine</option>
+</select> 
+  <br>
+  <br>
+  
+ <label for="country">Choose a country:</label>
+
+<label class="container">Canada
+  <input type="radio" checked="checked" name="country" value="canada">
+  <span class="checkmark"></span>
+</label>
+<label class="container">USA
+  <input type="radio" name="country" value="USA">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Bahamas
+  <input type="radio" name="country" value="Bahamas">
+  <span class="checkmark"></span>
+</label
+  <br>
+  <br>
+  <label for="colors">Choose a color:</label>
+  <br>
+  <br>
+<label class="container-box">Ruby
+  <input type="checkbox" name="colors" value="Ruby" checked="checked">
+  <span class="checkmark-box"></span>
+</label>
+<label class="container-box">Gold
+  <input type="checkbox" name="colors" value="Gold">
+  <span class="checkmark-box"></span>
+</label>
+<label class="container-box">Sapphire
+  <input type="checkbox" name="colors" value="Sapphire">
+  <span class="checkmark-box"></span>
+</label>
+
+  <br>
+  <br>
+  <label for="comment">Share your thoughts:</label>
+  <br>
+  <textarea class="comment" name="comment" form="usrform">Comments are welcome!</textarea>
+  <br>
+  <br>
+   <input id="submit" type="submit" value="Submit" class="button">
+</form>
+  
+  </div>
+  </html>
